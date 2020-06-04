@@ -40,15 +40,6 @@ git:
 matrix:
  fast_finish: true
  exclude:
-  - os: linux
-    arch: arm64
-    env: TAGS="-tags bounds"
-  - os: linux
-    arch: arm64
-    env: TAGS="-tags noasm"
-  - os: linux
-    arch: arm64
-    env: TAGS="-tags appengine"
 
   - os: osx
     env: TAGS="-tags bounds"
